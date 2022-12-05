@@ -1,0 +1,12 @@
+##### Core scientific packages
+jupyter
+matplotlib
+numpy
+pandas
+scipy
+
+##### Machine Learning packages
+scikit-learn
+
+# Optional: the XGBoost library is only used in chapter 7
+xgboost
