@@ -20,3 +20,6 @@ In addition, it automatically logs extra information about the run:
 - Author
 
 Each run is a trial in an ML experiment, which can contain many different runs/trials.
+
+Resources for Hyperopt Search Space:
+http://hyperopt.github.io/hyperopt/getting-started/search_spaces/
