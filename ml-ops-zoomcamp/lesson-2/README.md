@@ -23,3 +23,7 @@ Each run is a trial in an ML experiment, which can contain many different runs/t
 
 Resources for Hyperopt Search Space:
 http://hyperopt.github.io/hyperopt/getting-started/search_spaces/
+
+![Screenshot 2023-06-18 at 10 19 36 AM](https://github.com/caitlincjohnson/machine-learning/assets/35669839/3162d4bb-bff9-467c-ad46-40070695a31a)
+
+![Screenshot 2023-06-18 at 10 52 02 AM](https://github.com/caitlincjohnson/machine-learning/assets/35669839/97f0ebd5-0b04-4210-87b7-643dd4e40c96)
