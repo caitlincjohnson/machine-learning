@@ -38,3 +38,11 @@ Resources for MLflow Autologs: https://mlflow.org/docs/latest/tracking.html#auto
 ![image](https://github.com/caitlincjohnson/machine-learning/assets/35669839/a99c88e9-044a-4a0a-929a-0c54ebf71326)
 
 Source: https://neptune.ai/experiment-tracking
+
+## Model Logging
+
+![Screenshot 2023-06-19 at 7 53 40 AM](https://github.com/caitlincjohnson/machine-learning/assets/35669839/8d96fd6d-19c6-494e-9ab8-8ffedae47557)
+
+Generally there are two options for logging models in MLflow:
+1. Log model as an artifact: `mlflow.log_artifact("mymodel", artifact_path="models")`
+2. Log model using the method "log_model": `mlflow.<framework>.log_model(model, artifact_path="models")`
