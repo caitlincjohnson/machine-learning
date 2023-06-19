@@ -21,6 +21,8 @@ In addition, it automatically logs extra information about the run:
 
 Each run is a trial in an ML experiment, which can contain many different runs/trials.
 
+## Parameter Tuning
+
 Resources for Hyperopt Search Space:
 http://hyperopt.github.io/hyperopt/getting-started/search_spaces/
 
@@ -31,3 +33,8 @@ http://hyperopt.github.io/hyperopt/getting-started/search_spaces/
 When choosing the best model, the one with the best score isn't always necessarily the best one, as they may be way more complex and more time-consuming which impacts performance in production. Choosing one with a barely worse score yet less complexity may actually be the best path moving forward.
 
 Resources for MLflow Autologs: https://mlflow.org/docs/latest/tracking.html#automatic-logging
+
+## Experiment Tracking
+![image](https://github.com/caitlincjohnson/machine-learning/assets/35669839/a99c88e9-044a-4a0a-929a-0c54ebf71326)
+
+Source: https://neptune.ai/experiment-tracking
