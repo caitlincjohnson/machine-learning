@@ -62,3 +62,16 @@ A Client of:
 - an MLflow Tracking Server that creates and manages experiments and runs
 - an MLflow Registry Server that creates and manages registered models and model versions
 To instantiate it we need to pass a tracking URI and/or a registry URI (e.g., "sqlite:///mlflow.db")
+
+## Configuring MLflow for Real-World Scenarios
+There are three main aspects when it comes to configuring MLflow, and not all scenarios will look the same nor have the same requirements.
+1. Backend store
+   - local filesystem
+   - SQLAlchemy compatible DB (e.g., SQLite)
+2. Artifacts store
+   - local filesystem
+   - remote (e.g., S3 bucket)
+3. Tracking server
+   - no tracking server
+   - localhost
+   - remote
