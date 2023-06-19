@@ -40,9 +40,25 @@ Resources for MLflow Autologs: https://mlflow.org/docs/latest/tracking.html#auto
 Source: https://neptune.ai/experiment-tracking
 
 ## Model Logging
-
 ![Screenshot 2023-06-19 at 7 53 40 AM](https://github.com/caitlincjohnson/machine-learning/assets/35669839/8d96fd6d-19c6-494e-9ab8-8ffedae47557)
 
 Generally there are two options for logging models in MLflow:
 1. Log model as an artifact: `mlflow.log_artifact("mymodel", artifact_path="models")`
 2. Log model using the method "log_model": `mlflow.<framework>.log_model(model, artifact_path="models")`
+
+## Model Registry
+![Screenshot 2023-06-19 at 8 01 13 AM](https://github.com/caitlincjohnson/machine-learning/assets/35669839/40536fdb-c8c1-48a8-9ece-1458dea91d6d)
+
+Model registry is not responsible for deploying; they're only used to list what models are production-ready, and the labels are assigned to models to designate the stage they're in. A CI/CD process is needed to complement the model registry for deployment purposes.
+
+It provides:
+- Model lineage
+- Model versioning
+- Stage transitions
+- Annotations
+
+## MLflow Client Class
+A Client of:
+- an MLflow Tracking Server that creates and manages experiments and runs
+- an MLflow Registry Server that creates and manages registered models and model versions
+To instantiate it we need to pass a tracking URI and/or a registry URI (e.g., "sqlite:///mlflow.db")
